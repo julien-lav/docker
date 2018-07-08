@@ -1,0 +1,29 @@
+#docker run -d --name -php-server my_app
+
+sudo docker build -t my_doc .
+sudo docker run --rm -p 80:80 my_doc
+
+sudo apt-get remove docker docker-engine docker.io
+
+sudo docker-compose up --build
+
+
+network 
+
+dns de la mahcine c'est la clef quand on a declaré le service 
+
+volumes:
+    code:
+    driveropts
+        type 
+        device
+       
+
+retrive url
+
+
+#!/bin/bash
+# Delete all containers
+docker rm $(docker ps -a -q)
+# Delete all images
+docker rmi $(docker images -q)
